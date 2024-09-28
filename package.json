@@ -17,7 +17,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "vue": "^3.4.15"
+    "vue": "^3.5.10"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.5.2",
