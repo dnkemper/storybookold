@@ -2826,6 +2826,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@storybook/components@npm:8.4.1":
+  version: 8.4.1
+  resolution: "@storybook/components@npm:8.4.1"
+  peerDependencies:
+    storybook: ^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0
+  checksum: fad61e37228974d179ae0ea552089ddf9f60bf2686e70feb900a1682922e5102db6a43c452e1cd4bdad4619b70e2239afbd3944c0edd4b7ab76c96a316886ec6
+  languageName: node
+  linkType: hard
+
 "@storybook/core-client@npm:7.6.17":
   version: 7.6.17
   resolution: "@storybook/core-client@npm:7.6.17"
@@ -3012,6 +3021,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@storybook/manager-api@npm:8.4.1":
+  version: 8.4.1
+  resolution: "@storybook/manager-api@npm:8.4.1"
+  peerDependencies:
+    storybook: ^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0
+  checksum: 1df041bc3c51331b769be412fb14dcdb2f5785effee2becd0bf803382f64fbfe13eb9c7ecdade81de7cff624e145e092f3e0309cf7219fb09cbf12ca503c13a1
+  languageName: node
+  linkType: hard
+
 "@storybook/manager@npm:7.6.17":
   version: 7.6.17
   resolution: "@storybook/manager@npm:7.6.17"
@@ -3070,6 +3088,15 @@ __metadata:
     ts-dedent: ^2.0.0
     util-deprecate: ^1.0.2
   checksum: f448058f6f8b9d5a88083454d8296df79effc2f6500f4cb3406d18914ca2f972623a77fafc7f7c35bba077fe8ea4fa73965007bd130484dfa6be95a7c7a0e863
+  languageName: node
+  linkType: hard
+
+"@storybook/preview-api@npm:8.4.1":
+  version: 8.4.1
+  resolution: "@storybook/preview-api@npm:8.4.1"
+  peerDependencies:
+    storybook: ^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0
+  checksum: 36dee1deb1c6c905fc73854315b5f5d8f4d144e409433fef8885f10e506e2663a528458d88a854968e7de1bebc6bfb1091d7a7e00506344f9dd11b024a63d66f
   languageName: node
   linkType: hard
 
@@ -3132,6 +3159,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@storybook/theming@npm:8.4.1":
+  version: 8.4.1
+  resolution: "@storybook/theming@npm:8.4.1"
+  peerDependencies:
+    storybook: ^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0
+  checksum: a88c8d0e9bebecca73296e0415334f0724682ac14939b854891548ad2195902a42e8af0e3aefbae62bb7775c8ef90037d95586436c8922a461b827004d8fe1b7
+  languageName: node
+  linkType: hard
+
 "@storybook/types@npm:7.6.17":
   version: 7.6.17
   resolution: "@storybook/types@npm:7.6.17"
@@ -3160,7 +3196,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/vue3@npm:7.6.17, @storybook/vue3@npm:^7.5.2":
+"@storybook/vue3@npm:7.6.17":
   version: 7.6.17
   resolution: "@storybook/vue3@npm:7.6.17"
   dependencies:
@@ -3177,6 +3213,26 @@ __metadata:
   peerDependencies:
     vue: ^3.0.0
   checksum: 8b00eded3d0d1ac898464933842c5cecef784577d8e1a4abeecc3e4ae851752c08cdb35a69ec48016a844a59363bba43f77f45bdbe4afe33a8a1ac3307f51d96
+  languageName: node
+  linkType: hard
+
+"@storybook/vue3@npm:^8.4.1":
+  version: 8.4.1
+  resolution: "@storybook/vue3@npm:8.4.1"
+  dependencies:
+    "@storybook/components": 8.4.1
+    "@storybook/global": ^5.0.0
+    "@storybook/manager-api": 8.4.1
+    "@storybook/preview-api": 8.4.1
+    "@storybook/theming": 8.4.1
+    "@vue/compiler-core": ^3.0.0
+    ts-dedent: ^2.0.0
+    type-fest: ~2.19
+    vue-component-type-helpers: latest
+  peerDependencies:
+    storybook: ^8.4.1
+    vue: ^3.0.0
+  checksum: bd8b8fc9db168bec529d20fefb330e1b8a9f79146c3f5cce438e8b50df05c8b1425edbe47ea25cea9639aa3157aae8fc291aff82a2163507cc18c96c0e48f353
   languageName: node
   linkType: hard
 
@@ -8184,7 +8240,7 @@ __metadata:
     "@storybook/addon-links": ^7.5.2
     "@storybook/blocks": ^7.5.2
     "@storybook/preset-scss": ^1.0.3
-    "@storybook/vue3": ^7.5.2
+    "@storybook/vue3": ^8.4.1
     "@storybook/vue3-vite": ^7.5.2
     "@vue/tsconfig": ^0.1.3
     "@whitespace/storybook-addon-html": ^5.1.6
