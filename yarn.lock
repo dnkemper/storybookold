@@ -3715,15 +3715,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/tsconfig@npm:^0.1.3":
-  version: 0.1.3
-  resolution: "@vue/tsconfig@npm:0.1.3"
+"@vue/tsconfig@npm:^0.7.0":
+  version: 0.7.0
+  resolution: "@vue/tsconfig@npm:0.7.0"
   peerDependencies:
-    "@types/node": "*"
+    typescript: 5.x
+    vue: ^3.4.0
   peerDependenciesMeta:
-    "@types/node":
+    typescript:
       optional: true
-  checksum: 8150a24497a5348bc342c27afb38ad989de2ce8e94c349020628065d2a8df6837cb8bb3012f9161eea716487832612ac71b5f910d95bac41539ac6021d6bd88d
+    vue:
+      optional: true
+  checksum: 98992aa8dc37f26cfe440c1b0ad402c3fb0132b89a53af036925df7b866e0c681eb1d0e706ae0d2372751103782731993299a5a9f02651462ef8d71f3ab38ae8
   languageName: node
   linkType: hard
 
@@ -8186,7 +8189,7 @@ __metadata:
     "@storybook/preset-scss": ^1.0.3
     "@storybook/vue3": ^7.5.2
     "@storybook/vue3-vite": ^7.5.2
-    "@vue/tsconfig": ^0.1.3
+    "@vue/tsconfig": ^0.7.0
     "@whitespace/storybook-addon-html": ^5.1.6
     react: ^18.2.0
     react-dom: ^18.2.0
